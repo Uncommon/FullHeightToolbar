@@ -13,6 +13,8 @@
 		DD96C9581760FA3F0003A30C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DD96C9561760FA3F0003A30C /* Credits.rtf */; };
 		DD96C95B1760FA3F0003A30C /* UUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C95A1760FA3F0003A30C /* UUAppDelegate.m */; };
 		DD96C95E1760FA3F0003A30C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD96C95C1760FA3F0003A30C /* MainMenu.xib */; };
+		DD96C967176105B60003A30C /* UUFullHeightToolbarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C966176105B60003A30C /* UUFullHeightToolbarItemView.m */; };
+		DD96C97717669F240003A30C /* UUFullHeightToolbarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C97617669F240003A30C /* UUFullHeightToolbarDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		DD96C9591760FA3F0003A30C /* UUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUAppDelegate.h; sourceTree = "<group>"; };
 		DD96C95A1760FA3F0003A30C /* UUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUAppDelegate.m; sourceTree = "<group>"; };
 		DD96C95D1760FA3F0003A30C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DD96C965176105B60003A30C /* UUFullHeightToolbarItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUFullHeightToolbarItemView.h; path = Library/UUFullHeightToolbarItemView.h; sourceTree = "<group>"; };
+		DD96C966176105B60003A30C /* UUFullHeightToolbarItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUFullHeightToolbarItemView.m; path = Library/UUFullHeightToolbarItemView.m; sourceTree = "<group>"; };
+		DD96C97517669F240003A30C /* UUFullHeightToolbarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUFullHeightToolbarDelegate.h; path = Library/UUFullHeightToolbarDelegate.h; sourceTree = "<group>"; };
+		DD96C97617669F240003A30C /* UUFullHeightToolbarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUFullHeightToolbarDelegate.m; path = Library/UUFullHeightToolbarDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,7 @@
 		DD96C93B1760FA3F0003A30C = {
 			isa = PBXGroup;
 			children = (
+				DD96C964176103FF0003A30C /* Library */,
 				DD96C94D1760FA3F0003A30C /* Sample App */,
 				DD96C9461760FA3F0003A30C /* Frameworks */,
 				DD96C9451760FA3F0003A30C /* Products */,
@@ -100,6 +107,17 @@
 				DD96C9561760FA3F0003A30C /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD96C964176103FF0003A30C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DD96C965176105B60003A30C /* UUFullHeightToolbarItemView.h */,
+				DD96C966176105B60003A30C /* UUFullHeightToolbarItemView.m */,
+				DD96C97517669F240003A30C /* UUFullHeightToolbarDelegate.h */,
+				DD96C97617669F240003A30C /* UUFullHeightToolbarDelegate.m */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +187,8 @@
 			files = (
 				DD96C9541760FA3F0003A30C /* main.m in Sources */,
 				DD96C95B1760FA3F0003A30C /* UUAppDelegate.m in Sources */,
+				DD96C967176105B60003A30C /* UUFullHeightToolbarItemView.m in Sources */,
+				DD96C97717669F240003A30C /* UUFullHeightToolbarDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +286,8 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UCFullHeightToolbar/UUFullHeightToolbar-Prefix.pch";
-				INFOPLIST_FILE = "UCFullHeightToolbar/UUFullHeightToolbar-Info.plist";
+				GCC_PREFIX_HEADER = "Sample App/UUFullHeightToolbar-Prefix.pch";
+				INFOPLIST_FILE = "Sample App/UUFullHeightToolbar-Info.plist";
 				PRODUCT_NAME = UUFullHeightToolbar;
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,8 +298,8 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UCFullHeightToolbar/UUFullHeightToolbar-Prefix.pch";
-				INFOPLIST_FILE = "UCFullHeightToolbar/UUFullHeightToolbar-Info.plist";
+				GCC_PREFIX_HEADER = "Sample App/UUFullHeightToolbar-Prefix.pch";
+				INFOPLIST_FILE = "Sample App/UUFullHeightToolbar-Info.plist";
 				PRODUCT_NAME = UUFullHeightToolbar;
 				WRAPPER_EXTENSION = app;
 			};
