@@ -1,5 +1,6 @@
 #import "UUFullHeightToolbarDelegate.h"
 #import "UUFullHeightToolbarItemView.h"
+#import "UULCDStatusView.h"
 
 @implementation UUFullHeightToolbarDelegate
 
@@ -22,6 +23,13 @@
 
 - (BOOL)isFullHeightItem:(NSToolbarItem *)item
 {
+  if ([item.itemIdentifier isEqualToString:@"com.uncommonplace.lcditem"]) {
+    NSRect frame = { { 0, 0 }, [item minSize] };
+    UULCDStatusView *lcdView = [[UULCDStatusView alloc] initWithFrame:frame];
+
+    item.view = lcdView;
+    return YES;
+  }
   return NO;
 }
 

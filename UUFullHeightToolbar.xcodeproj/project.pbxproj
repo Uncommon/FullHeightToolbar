@@ -15,6 +15,7 @@
 		DD96C95E1760FA3F0003A30C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD96C95C1760FA3F0003A30C /* MainMenu.xib */; };
 		DD96C967176105B60003A30C /* UUFullHeightToolbarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C966176105B60003A30C /* UUFullHeightToolbarItemView.m */; };
 		DD96C97717669F240003A30C /* UUFullHeightToolbarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C97617669F240003A30C /* UUFullHeightToolbarDelegate.m */; };
+		DD96C97C176934830003A30C /* UULCDStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C97B176934820003A30C /* UULCDStatusView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		DD96C966176105B60003A30C /* UUFullHeightToolbarItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUFullHeightToolbarItemView.m; path = Library/UUFullHeightToolbarItemView.m; sourceTree = "<group>"; };
 		DD96C97517669F240003A30C /* UUFullHeightToolbarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUFullHeightToolbarDelegate.h; path = Library/UUFullHeightToolbarDelegate.h; sourceTree = "<group>"; };
 		DD96C97617669F240003A30C /* UUFullHeightToolbarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUFullHeightToolbarDelegate.m; path = Library/UUFullHeightToolbarDelegate.m; sourceTree = "<group>"; };
+		DD96C97A176934820003A30C /* UULCDStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UULCDStatusView.h; path = Library/UULCDStatusView.h; sourceTree = "<group>"; };
+		DD96C97B176934820003A30C /* UULCDStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UULCDStatusView.m; path = Library/UULCDStatusView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				DD96C966176105B60003A30C /* UUFullHeightToolbarItemView.m */,
 				DD96C97517669F240003A30C /* UUFullHeightToolbarDelegate.h */,
 				DD96C97617669F240003A30C /* UUFullHeightToolbarDelegate.m */,
+				DD96C97A176934820003A30C /* UULCDStatusView.h */,
+				DD96C97B176934820003A30C /* UULCDStatusView.m */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				DD96C95B1760FA3F0003A30C /* UUAppDelegate.m in Sources */,
 				DD96C967176105B60003A30C /* UUFullHeightToolbarItemView.m in Sources */,
 				DD96C97717669F240003A30C /* UUFullHeightToolbarDelegate.m in Sources */,
+				DD96C97C176934830003A30C /* UULCDStatusView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
