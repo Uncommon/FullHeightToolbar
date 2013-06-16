@@ -94,6 +94,26 @@ const CGFloat kLabelExtraWidth = 8;  // intrinsicContentSize is too small.
   [item setMaxSize:minSize];
 }
 
+- (void)viewWillMoveToWindow:(NSWindow *)newWindow
+{
+  const NSRect mainViewFrame = self.mainView.frame;
+  const NSSize mySize = self.frame.size;
+
+  // Assume that if the window has no toolbar, then it must be the customize
+  // sheet, so the fake label must be hidden.
+  if (newWindow.toolbar != nil) {
+    [self.label setHidden:NO];
+    [self.mainView setFrameOrigin:NSMakePoint(
+        mainViewFrame.origin.x,
+        mySize.height - mainViewFrame.size.height)];
+  } else {
+    [self.label setHidden:YES];
+    [self.mainView setFrameOrigin:NSMakePoint(
+        mainViewFrame.origin.x,
+        (mySize.height - mainViewFrame.size.height) / 2)];
+  }
+}
+
 #pragma mark Forwarding
 // NSToolbarItem forwards these attributes to its view, so we need to forward
 // again to the main view.
