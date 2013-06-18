@@ -21,6 +21,15 @@
 
       if (buttonType == NSSwitchButton)
         [view setHidden:YES];  // "Use small size" checkbox
+    } else {
+      // The mode popup and its label are inside a view. Ideally we should
+      // look for more identifying marks, but since the button and the menu
+      // items don't have targets there are few good options left.
+      for (NSView *subview in view.subviews)
+        if ([subview isKindOfClass:[NSPopUpButton class]]) {
+          [view setHidden:YES];
+          break;
+        }
     }
   }
 }
