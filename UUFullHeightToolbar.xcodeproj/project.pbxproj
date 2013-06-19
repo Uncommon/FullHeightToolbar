@@ -20,15 +20,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD96C9441760FA3F0003A30C /* UUFullHeightToolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UUFullHeightToolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD96C9441760FA3F0003A30C /* FHTSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHTSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD96C9471760FA3F0003A30C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DD96C94A1760FA3F0003A30C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DD96C94B1760FA3F0003A30C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DD96C94C1760FA3F0003A30C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DD96C94F1760FA3F0003A30C /* UUFullHeightToolbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UUFullHeightToolbar-Info.plist"; sourceTree = "<group>"; };
+		DD96C94F1760FA3F0003A30C /* FHTSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FHTSampleApp-Info.plist"; sourceTree = "<group>"; };
 		DD96C9511760FA3F0003A30C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD96C9531760FA3F0003A30C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD96C9551760FA3F0003A30C /* UUFullHeightToolbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UUFullHeightToolbar-Prefix.pch"; sourceTree = "<group>"; };
+		DD96C9551760FA3F0003A30C /* FHTSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FHTSampleApp-Prefix.pch"; sourceTree = "<group>"; };
 		DD96C9571760FA3F0003A30C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		DD96C9591760FA3F0003A30C /* FHTSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHTSampleAppDelegate.h; sourceTree = "<group>"; };
 		DD96C95A1760FA3F0003A30C /* FHTSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHTSampleAppDelegate.m; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		DD96C9451760FA3F0003A30C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD96C9441760FA3F0003A30C /* UUFullHeightToolbar.app */,
+				DD96C9441760FA3F0003A30C /* FHTSampleApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,10 +106,10 @@
 		DD96C94E1760FA3F0003A30C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD96C94F1760FA3F0003A30C /* UUFullHeightToolbar-Info.plist */,
+				DD96C94F1760FA3F0003A30C /* FHTSampleApp-Info.plist */,
 				DD96C9501760FA3F0003A30C /* InfoPlist.strings */,
 				DD96C9531760FA3F0003A30C /* main.m */,
-				DD96C9551760FA3F0003A30C /* UUFullHeightToolbar-Prefix.pch */,
+				DD96C9551760FA3F0003A30C /* FHTSampleApp-Prefix.pch */,
 				DD96C9561760FA3F0003A30C /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD96C9431760FA3F0003A30C /* UUFullHeightToolbar */ = {
+		DD96C9431760FA3F0003A30C /* FHTSampleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD96C9611760FA3F0003A30C /* Build configuration list for PBXNativeTarget "UUFullHeightToolbar" */;
+			buildConfigurationList = DD96C9611760FA3F0003A30C /* Build configuration list for PBXNativeTarget "FHTSampleApp" */;
 			buildPhases = (
 				DD96C9401760FA3F0003A30C /* Sources */,
 				DD96C9411760FA3F0003A30C /* Frameworks */,
@@ -145,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = UUFullHeightToolbar;
+			name = FHTSampleApp;
 			productName = UCFullHeightToolbar;
-			productReference = DD96C9441760FA3F0003A30C /* UUFullHeightToolbar.app */;
+			productReference = DD96C9441760FA3F0003A30C /* FHTSampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD96C9431760FA3F0003A30C /* UUFullHeightToolbar */,
+				DD96C9431760FA3F0003A30C /* FHTSampleApp */,
 			);
 		};
 /* End PBXProject section */
@@ -298,9 +298,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sample App/UUFullHeightToolbar-Prefix.pch";
-				INFOPLIST_FILE = "Sample App/UUFullHeightToolbar-Info.plist";
-				PRODUCT_NAME = UUFullHeightToolbar;
+				GCC_PREFIX_HEADER = "Sample App/FHTSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "Sample App/FHTSampleApp-Info.plist";
+				PRODUCT_NAME = FHTSampleApp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -310,9 +310,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sample App/UUFullHeightToolbar-Prefix.pch";
-				INFOPLIST_FILE = "Sample App/UUFullHeightToolbar-Info.plist";
-				PRODUCT_NAME = UUFullHeightToolbar;
+				GCC_PREFIX_HEADER = "Sample App/FHTSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "Sample App/FHTSampleApp-Info.plist";
+				PRODUCT_NAME = FHTSampleApp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD96C9611760FA3F0003A30C /* Build configuration list for PBXNativeTarget "UUFullHeightToolbar" */ = {
+		DD96C9611760FA3F0003A30C /* Build configuration list for PBXNativeTarget "FHTSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD96C9621760FA3F0003A30C /* Debug */,
