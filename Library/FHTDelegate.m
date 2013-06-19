@@ -1,6 +1,6 @@
 #import "FHTDelegate.h"
 #import "FHTItemView.h"
-#import "UULCDStatusView.h"
+#import "FHTLCDStatusView.h"
 
 @implementation FHTDelegate
 
@@ -67,7 +67,7 @@
 {
   if ([item.itemIdentifier isEqualToString:@"com.uncommonplace.lcditem"]) {
     NSRect frame = { { 0, 0 }, [item minSize] };
-    UULCDStatusView *lcdView = [[UULCDStatusView alloc] initWithFrame:frame];
+    FHTLCDStatusView *lcdView = [[FHTLCDStatusView alloc] initWithFrame:frame];
 
     item.view = lcdView;
     return YES;

@@ -160,7 +160,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "David Catmull";
 			};
-			buildConfigurationList = DD96C93F1760FA3F0003A30C /* Build configuration list for PBXProject "UUFullHeightToolbar" */;
+			buildConfigurationList = DD96C93F1760FA3F0003A30C /* Build configuration list for PBXProject "FullHeightToolbar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD96C93F1760FA3F0003A30C /* Build configuration list for PBXProject "UUFullHeightToolbar" */ = {
+		DD96C93F1760FA3F0003A30C /* Build configuration list for PBXProject "FullHeightToolbar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD96C95F1760FA3F0003A30C /* Debug */,
