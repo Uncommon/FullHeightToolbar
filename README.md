@@ -1,4 +1,4 @@
-UUFullHeightToolbar
+FullHeightToolbar
 ===================
 
 A toolbar with full-height items, like the status items in Xcode, iTunes, and Instruments. Especially Instruments.
