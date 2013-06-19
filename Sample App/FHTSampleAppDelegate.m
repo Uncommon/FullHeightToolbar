@@ -1,6 +1,6 @@
-#import "UUAppDelegate.h"
+#import "FHTSampleAppDelegate.h"
 
-@implementation UUAppDelegate
+@implementation FHTSampleAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification*)aNotification
 {

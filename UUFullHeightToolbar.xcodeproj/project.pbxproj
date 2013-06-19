@@ -11,12 +11,12 @@
 		DD96C9521760FA3F0003A30C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD96C9501760FA3F0003A30C /* InfoPlist.strings */; };
 		DD96C9541760FA3F0003A30C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C9531760FA3F0003A30C /* main.m */; };
 		DD96C9581760FA3F0003A30C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DD96C9561760FA3F0003A30C /* Credits.rtf */; };
-		DD96C95B1760FA3F0003A30C /* UUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C95A1760FA3F0003A30C /* UUAppDelegate.m */; };
+		DD96C95B1760FA3F0003A30C /* FHTSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C95A1760FA3F0003A30C /* FHTSampleAppDelegate.m */; };
 		DD96C95E1760FA3F0003A30C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD96C95C1760FA3F0003A30C /* MainMenu.xib */; };
-		DD96C967176105B60003A30C /* UUFullHeightToolbarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C966176105B60003A30C /* UUFullHeightToolbarItemView.m */; };
-		DD96C97717669F240003A30C /* UUFullHeightToolbarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C97617669F240003A30C /* UUFullHeightToolbarDelegate.m */; };
-		DD96C97C176934830003A30C /* UULCDStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C97B176934820003A30C /* UULCDStatusView.m */; };
-		DD96C98217696BC50003A30C /* UUFullHeightToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C98117696BC50003A30C /* UUFullHeightToolbar.m */; };
+		DD96C967176105B60003A30C /* FHTItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C966176105B60003A30C /* FHTItemView.m */; };
+		DD96C97717669F240003A30C /* FHTDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C97617669F240003A30C /* FHTDelegate.m */; };
+		DD96C97C176934830003A30C /* FHTLCDStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C97B176934820003A30C /* FHTLCDStatusView.m */; };
+		DD96C98217696BC50003A30C /* FHTToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C98117696BC50003A30C /* FHTToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,17 +30,17 @@
 		DD96C9531760FA3F0003A30C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD96C9551760FA3F0003A30C /* UUFullHeightToolbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UUFullHeightToolbar-Prefix.pch"; sourceTree = "<group>"; };
 		DD96C9571760FA3F0003A30C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		DD96C9591760FA3F0003A30C /* UUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUAppDelegate.h; sourceTree = "<group>"; };
-		DD96C95A1760FA3F0003A30C /* UUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUAppDelegate.m; sourceTree = "<group>"; };
+		DD96C9591760FA3F0003A30C /* FHTSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHTSampleAppDelegate.h; sourceTree = "<group>"; };
+		DD96C95A1760FA3F0003A30C /* FHTSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHTSampleAppDelegate.m; sourceTree = "<group>"; };
 		DD96C95D1760FA3F0003A30C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		DD96C965176105B60003A30C /* UUFullHeightToolbarItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUFullHeightToolbarItemView.h; path = Library/UUFullHeightToolbarItemView.h; sourceTree = "<group>"; };
-		DD96C966176105B60003A30C /* UUFullHeightToolbarItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUFullHeightToolbarItemView.m; path = Library/UUFullHeightToolbarItemView.m; sourceTree = "<group>"; };
-		DD96C97517669F240003A30C /* UUFullHeightToolbarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUFullHeightToolbarDelegate.h; path = Library/UUFullHeightToolbarDelegate.h; sourceTree = "<group>"; };
-		DD96C97617669F240003A30C /* UUFullHeightToolbarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUFullHeightToolbarDelegate.m; path = Library/UUFullHeightToolbarDelegate.m; sourceTree = "<group>"; };
-		DD96C97A176934820003A30C /* UULCDStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UULCDStatusView.h; path = Library/UULCDStatusView.h; sourceTree = "<group>"; };
-		DD96C97B176934820003A30C /* UULCDStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UULCDStatusView.m; path = Library/UULCDStatusView.m; sourceTree = "<group>"; };
-		DD96C98017696BC50003A30C /* UUFullHeightToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUFullHeightToolbar.h; path = Library/UUFullHeightToolbar.h; sourceTree = "<group>"; };
-		DD96C98117696BC50003A30C /* UUFullHeightToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUFullHeightToolbar.m; path = Library/UUFullHeightToolbar.m; sourceTree = "<group>"; };
+		DD96C965176105B60003A30C /* FHTItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHTItemView.h; path = Library/FHTItemView.h; sourceTree = "<group>"; };
+		DD96C966176105B60003A30C /* FHTItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FHTItemView.m; path = Library/FHTItemView.m; sourceTree = "<group>"; };
+		DD96C97517669F240003A30C /* FHTDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHTDelegate.h; path = Library/FHTDelegate.h; sourceTree = "<group>"; };
+		DD96C97617669F240003A30C /* FHTDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FHTDelegate.m; path = Library/FHTDelegate.m; sourceTree = "<group>"; };
+		DD96C97A176934820003A30C /* FHTLCDStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHTLCDStatusView.h; path = Library/FHTLCDStatusView.h; sourceTree = "<group>"; };
+		DD96C97B176934820003A30C /* FHTLCDStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FHTLCDStatusView.m; path = Library/FHTLCDStatusView.m; sourceTree = "<group>"; };
+		DD96C98017696BC50003A30C /* FHTToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHTToolbar.h; path = Library/FHTToolbar.h; sourceTree = "<group>"; };
+		DD96C98117696BC50003A30C /* FHTToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FHTToolbar.m; path = Library/FHTToolbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 		DD96C94D1760FA3F0003A30C /* Sample App */ = {
 			isa = PBXGroup;
 			children = (
-				DD96C9591760FA3F0003A30C /* UUAppDelegate.h */,
-				DD96C95A1760FA3F0003A30C /* UUAppDelegate.m */,
+				DD96C9591760FA3F0003A30C /* FHTSampleAppDelegate.h */,
+				DD96C95A1760FA3F0003A30C /* FHTSampleAppDelegate.m */,
 				DD96C95C1760FA3F0003A30C /* MainMenu.xib */,
 				DD96C94E1760FA3F0003A30C /* Supporting Files */,
 			);
@@ -118,14 +118,14 @@
 		DD96C964176103FF0003A30C /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				DD96C965176105B60003A30C /* UUFullHeightToolbarItemView.h */,
-				DD96C966176105B60003A30C /* UUFullHeightToolbarItemView.m */,
-				DD96C97517669F240003A30C /* UUFullHeightToolbarDelegate.h */,
-				DD96C97617669F240003A30C /* UUFullHeightToolbarDelegate.m */,
-				DD96C97A176934820003A30C /* UULCDStatusView.h */,
-				DD96C97B176934820003A30C /* UULCDStatusView.m */,
-				DD96C98017696BC50003A30C /* UUFullHeightToolbar.h */,
-				DD96C98117696BC50003A30C /* UUFullHeightToolbar.m */,
+				DD96C965176105B60003A30C /* FHTItemView.h */,
+				DD96C966176105B60003A30C /* FHTItemView.m */,
+				DD96C97517669F240003A30C /* FHTDelegate.h */,
+				DD96C97617669F240003A30C /* FHTDelegate.m */,
+				DD96C97A176934820003A30C /* FHTLCDStatusView.h */,
+				DD96C97B176934820003A30C /* FHTLCDStatusView.m */,
+				DD96C98017696BC50003A30C /* FHTToolbar.h */,
+				DD96C98117696BC50003A30C /* FHTToolbar.m */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -156,7 +156,7 @@
 		DD96C93C1760FA3F0003A30C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = UU;
+				CLASSPREFIX = FHT;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "David Catmull";
 			};
@@ -196,11 +196,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD96C9541760FA3F0003A30C /* main.m in Sources */,
-				DD96C95B1760FA3F0003A30C /* UUAppDelegate.m in Sources */,
-				DD96C967176105B60003A30C /* UUFullHeightToolbarItemView.m in Sources */,
-				DD96C97717669F240003A30C /* UUFullHeightToolbarDelegate.m in Sources */,
-				DD96C97C176934830003A30C /* UULCDStatusView.m in Sources */,
-				DD96C98217696BC50003A30C /* UUFullHeightToolbar.m in Sources */,
+				DD96C95B1760FA3F0003A30C /* FHTSampleAppDelegate.m in Sources */,
+				DD96C967176105B60003A30C /* FHTItemView.m in Sources */,
+				DD96C97717669F240003A30C /* FHTDelegate.m in Sources */,
+				DD96C97C176934830003A30C /* FHTLCDStatusView.m in Sources */,
+				DD96C98217696BC50003A30C /* FHTToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

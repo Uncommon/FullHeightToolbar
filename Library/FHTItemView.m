@@ -1,16 +1,16 @@
-#import "UUFullHeightToolbarItemView.h"
+#import "FHTItemView.h"
 
 const CGFloat kLabelHeight = 17;
 const CGFloat kLabelExtraWidth = 8;  // intrinsicContentSize is too small.
 
-@interface UUFullHeightToolbarItemView ()
+@interface FHTItemView ()
 
 @property NSView *mainView;
 @property NSTextField *label;
 
 @end
 
-@implementation UUFullHeightToolbarItemView
+@implementation FHTItemView
 
 // Returns either the item's view, or a button to replace the icon.
 + (NSView *)mainViewForItem:(NSToolbarItem *)item
@@ -67,7 +67,7 @@ const CGFloat kLabelExtraWidth = 8;  // intrinsicContentSize is too small.
 
   const NSRect viewFrame = NSMakeRect(0, 0, mainView.frame.size.width, 48);
   NSSize minSize = viewFrame.size;
-  UUFullHeightToolbarItemView *view = [[self alloc] initWithFrame:viewFrame];
+  FHTItemView *view = [[self alloc] initWithFrame:viewFrame];
 
   NSLog(@"%@", [item itemIdentifier]);
   view.toolbarItem = item;

@@ -1,6 +1,6 @@
 #import <Cocoa/Cocoa.h>
 
-@interface UUFullHeightToolbarItemView : NSView
+@interface FHTItemView : NSView
 
 + (void)customizeToolbarItem:(NSToolbarItem *)item;
 

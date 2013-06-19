@@ -1,8 +1,8 @@
-#import "UUFullHeightToolbarDelegate.h"
-#import "UUFullHeightToolbarItemView.h"
+#import "FHTDelegate.h"
+#import "FHTItemView.h"
 #import "UULCDStatusView.h"
 
-@implementation UUFullHeightToolbarDelegate
+@implementation FHTDelegate
 
 - (id)init
 {
@@ -60,7 +60,7 @@
   NSToolbarItem *item = (NSToolbarItem *)[notification userInfo][@"item"];
 
   if (![self isFullHeightItem:item])
-    [UUFullHeightToolbarItemView customizeToolbarItem:item];
+    [FHTItemView customizeToolbarItem:item];
 }
 
 - (BOOL)isFullHeightItem:(NSToolbarItem *)item

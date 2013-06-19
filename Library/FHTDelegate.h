@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface UUFullHeightToolbarDelegate : NSObject<NSToolbarDelegate>
+@interface FHTDelegate : NSObject<NSToolbarDelegate>
 
 - (BOOL)isFullHeightItem:(NSToolbarItem *)item;
 

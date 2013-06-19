@@ -1,6 +1,6 @@
 #import <Cocoa/Cocoa.h>
 
-@interface UUAppDelegate : NSObject <NSApplicationDelegate>
+@interface FHTSampleAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 

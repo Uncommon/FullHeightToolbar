@@ -1,4 +1,4 @@
-#import "UULCDStatusView.h"
+#import "FHTLCDStatusView.h"
 
 // Based on code from http://stackoverflow.com/a/5954705/310159
 
@@ -16,7 +16,7 @@ static NSColor *kBorderColor = nil;
 
 @end
 
-@implementation UULCDStatusView
+@implementation FHTLCDStatusView
 
 + (void)load
 {

@@ -1,6 +1,6 @@
-#import "UUFullHeightToolbar.h"
+#import "FHTToolbar.h"
 
-@implementation UUFullHeightToolbar
+@implementation FHTToolbar
 
 - (void)setDisplayMode:(NSToolbarDisplayMode)displayMode
 {
