@@ -7,32 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD96C9481760FA3F0003A30C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD96C9471760FA3F0003A30C /* Cocoa.framework */; };
-		DD96C9521760FA3F0003A30C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD96C9501760FA3F0003A30C /* InfoPlist.strings */; };
-		DD96C9541760FA3F0003A30C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C9531760FA3F0003A30C /* main.m */; };
-		DD96C9581760FA3F0003A30C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DD96C9561760FA3F0003A30C /* Credits.rtf */; };
-		DD96C95B1760FA3F0003A30C /* FHTSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C95A1760FA3F0003A30C /* FHTSampleAppDelegate.m */; };
-		DD96C95E1760FA3F0003A30C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD96C95C1760FA3F0003A30C /* MainMenu.xib */; };
-		DD96C967176105B60003A30C /* FHTItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C966176105B60003A30C /* FHTItemView.m */; };
-		DD96C97717669F240003A30C /* FHTDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C97617669F240003A30C /* FHTDelegate.m */; };
-		DD96C97C176934830003A30C /* FHTLCDStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C97B176934820003A30C /* FHTLCDStatusView.m */; };
-		DD96C98217696BC50003A30C /* FHTToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C98117696BC50003A30C /* FHTToolbar.m */; };
+		DDE622D4178B82DC0007769D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD96C9471760FA3F0003A30C /* Cocoa.framework */; };
+		DDE622DA178B82DC0007769D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDE622D8178B82DC0007769D /* InfoPlist.strings */; };
+		DDE622DC178B82DC0007769D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE622DB178B82DC0007769D /* main.m */; };
+		DDE622E0178B82DC0007769D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DDE622DE178B82DC0007769D /* Credits.rtf */; };
+		DDE622E3178B82DC0007769D /* FHTDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE622E2178B82DC0007769D /* FHTDocument.m */; };
+		DDE622E6178B82DC0007769D /* FHTDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE622E4178B82DC0007769D /* FHTDocument.xib */; };
+		DDE622E9178B82DC0007769D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE622E7178B82DC0007769D /* MainMenu.xib */; };
+		DDE622ED178B84250007769D /* FHTItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C966176105B60003A30C /* FHTItemView.m */; };
+		DDE622EE178B842E0007769D /* FHTDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C97617669F240003A30C /* FHTDelegate.m */; };
+		DDE622EF178B842E0007769D /* FHTLCDStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C97B176934820003A30C /* FHTLCDStatusView.m */; };
+		DDE622F0178B842E0007769D /* FHTToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96C98117696BC50003A30C /* FHTToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD96C9441760FA3F0003A30C /* FHTSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHTSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD96C9471760FA3F0003A30C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DD96C94A1760FA3F0003A30C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DD96C94B1760FA3F0003A30C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DD96C94C1760FA3F0003A30C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DD96C94F1760FA3F0003A30C /* FHTSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FHTSampleApp-Info.plist"; sourceTree = "<group>"; };
-		DD96C9511760FA3F0003A30C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DD96C9531760FA3F0003A30C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD96C9551760FA3F0003A30C /* FHTSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FHTSampleApp-Prefix.pch"; sourceTree = "<group>"; };
-		DD96C9571760FA3F0003A30C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		DD96C9591760FA3F0003A30C /* FHTSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHTSampleAppDelegate.h; sourceTree = "<group>"; };
-		DD96C95A1760FA3F0003A30C /* FHTSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHTSampleAppDelegate.m; sourceTree = "<group>"; };
-		DD96C95D1760FA3F0003A30C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DD96C965176105B60003A30C /* FHTItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHTItemView.h; path = Library/FHTItemView.h; sourceTree = "<group>"; };
 		DD96C966176105B60003A30C /* FHTItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FHTItemView.m; path = Library/FHTItemView.m; sourceTree = "<group>"; };
 		DD96C97517669F240003A30C /* FHTDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHTDelegate.h; path = Library/FHTDelegate.h; sourceTree = "<group>"; };
@@ -41,14 +33,24 @@
 		DD96C97B176934820003A30C /* FHTLCDStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FHTLCDStatusView.m; path = Library/FHTLCDStatusView.m; sourceTree = "<group>"; };
 		DD96C98017696BC50003A30C /* FHTToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHTToolbar.h; path = Library/FHTToolbar.h; sourceTree = "<group>"; };
 		DD96C98117696BC50003A30C /* FHTToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FHTToolbar.m; path = Library/FHTToolbar.m; sourceTree = "<group>"; };
+		DDE622D3178B82DC0007769D /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE622D7178B82DC0007769D /* Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample-Info.plist"; sourceTree = "<group>"; };
+		DDE622D9178B82DC0007769D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDE622DB178B82DC0007769D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDE622DD178B82DC0007769D /* Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample-Prefix.pch"; sourceTree = "<group>"; };
+		DDE622DF178B82DC0007769D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DDE622E1178B82DC0007769D /* FHTDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHTDocument.h; sourceTree = "<group>"; };
+		DDE622E2178B82DC0007769D /* FHTDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHTDocument.m; sourceTree = "<group>"; };
+		DDE622E5178B82DC0007769D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FHTDocument.xib; sourceTree = "<group>"; };
+		DDE622E8178B82DC0007769D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DD96C9411760FA3F0003A30C /* Frameworks */ = {
+		DDE622D0178B82DC0007769D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD96C9481760FA3F0003A30C /* Cocoa.framework in Frameworks */,
+				DDE622D4178B82DC0007769D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				DD96C964176103FF0003A30C /* Library */,
-				DD96C94D1760FA3F0003A30C /* Sample App */,
+				DDE622D5178B82DC0007769D /* Sample */,
 				DD96C9461760FA3F0003A30C /* Frameworks */,
 				DD96C9451760FA3F0003A30C /* Products */,
 			);
@@ -68,7 +70,7 @@
 		DD96C9451760FA3F0003A30C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD96C9441760FA3F0003A30C /* FHTSampleApp.app */,
+				DDE622D3178B82DC0007769D /* Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,29 +94,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		DD96C94D1760FA3F0003A30C /* Sample App */ = {
-			isa = PBXGroup;
-			children = (
-				DD96C9591760FA3F0003A30C /* FHTSampleAppDelegate.h */,
-				DD96C95A1760FA3F0003A30C /* FHTSampleAppDelegate.m */,
-				DD96C95C1760FA3F0003A30C /* MainMenu.xib */,
-				DD96C94E1760FA3F0003A30C /* Supporting Files */,
-			);
-			path = "Sample App";
-			sourceTree = "<group>";
-		};
-		DD96C94E1760FA3F0003A30C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD96C94F1760FA3F0003A30C /* FHTSampleApp-Info.plist */,
-				DD96C9501760FA3F0003A30C /* InfoPlist.strings */,
-				DD96C9531760FA3F0003A30C /* main.m */,
-				DD96C9551760FA3F0003A30C /* FHTSampleApp-Prefix.pch */,
-				DD96C9561760FA3F0003A30C /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		DD96C964176103FF0003A30C /* Library */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,24 +109,48 @@
 			name = Library;
 			sourceTree = "<group>";
 		};
+		DDE622D5178B82DC0007769D /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				DDE622E1178B82DC0007769D /* FHTDocument.h */,
+				DDE622E2178B82DC0007769D /* FHTDocument.m */,
+				DDE622E4178B82DC0007769D /* FHTDocument.xib */,
+				DDE622E7178B82DC0007769D /* MainMenu.xib */,
+				DDE622D6178B82DC0007769D /* Supporting Files */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		DDE622D6178B82DC0007769D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE622D7178B82DC0007769D /* Sample-Info.plist */,
+				DDE622D8178B82DC0007769D /* InfoPlist.strings */,
+				DDE622DB178B82DC0007769D /* main.m */,
+				DDE622DD178B82DC0007769D /* Sample-Prefix.pch */,
+				DDE622DE178B82DC0007769D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD96C9431760FA3F0003A30C /* FHTSampleApp */ = {
+		DDE622D2178B82DC0007769D /* Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD96C9611760FA3F0003A30C /* Build configuration list for PBXNativeTarget "FHTSampleApp" */;
+			buildConfigurationList = DDE622EC178B82DC0007769D /* Build configuration list for PBXNativeTarget "Sample" */;
 			buildPhases = (
-				DD96C9401760FA3F0003A30C /* Sources */,
-				DD96C9411760FA3F0003A30C /* Frameworks */,
-				DD96C9421760FA3F0003A30C /* Resources */,
+				DDE622CF178B82DC0007769D /* Sources */,
+				DDE622D0178B82DC0007769D /* Frameworks */,
+				DDE622D1178B82DC0007769D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FHTSampleApp;
-			productName = UCFullHeightToolbar;
-			productReference = DD96C9441760FA3F0003A30C /* FHTSampleApp.app */;
+			name = Sample;
+			productName = Sample;
+			productReference = DDE622D3178B82DC0007769D /* Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,61 +175,70 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD96C9431760FA3F0003A30C /* FHTSampleApp */,
+				DDE622D2178B82DC0007769D /* Sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DD96C9421760FA3F0003A30C /* Resources */ = {
+		DDE622D1178B82DC0007769D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD96C9521760FA3F0003A30C /* InfoPlist.strings in Resources */,
-				DD96C9581760FA3F0003A30C /* Credits.rtf in Resources */,
-				DD96C95E1760FA3F0003A30C /* MainMenu.xib in Resources */,
+				DDE622DA178B82DC0007769D /* InfoPlist.strings in Resources */,
+				DDE622E0178B82DC0007769D /* Credits.rtf in Resources */,
+				DDE622E6178B82DC0007769D /* FHTDocument.xib in Resources */,
+				DDE622E9178B82DC0007769D /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DD96C9401760FA3F0003A30C /* Sources */ = {
+		DDE622CF178B82DC0007769D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD96C9541760FA3F0003A30C /* main.m in Sources */,
-				DD96C95B1760FA3F0003A30C /* FHTSampleAppDelegate.m in Sources */,
-				DD96C967176105B60003A30C /* FHTItemView.m in Sources */,
-				DD96C97717669F240003A30C /* FHTDelegate.m in Sources */,
-				DD96C97C176934830003A30C /* FHTLCDStatusView.m in Sources */,
-				DD96C98217696BC50003A30C /* FHTToolbar.m in Sources */,
+				DDE622DC178B82DC0007769D /* main.m in Sources */,
+				DDE622E3178B82DC0007769D /* FHTDocument.m in Sources */,
+				DDE622ED178B84250007769D /* FHTItemView.m in Sources */,
+				DDE622EE178B842E0007769D /* FHTDelegate.m in Sources */,
+				DDE622EF178B842E0007769D /* FHTLCDStatusView.m in Sources */,
+				DDE622F0178B842E0007769D /* FHTToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DD96C9501760FA3F0003A30C /* InfoPlist.strings */ = {
+		DDE622D8178B82DC0007769D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DD96C9511760FA3F0003A30C /* en */,
+				DDE622D9178B82DC0007769D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		DD96C9561760FA3F0003A30C /* Credits.rtf */ = {
+		DDE622DE178B82DC0007769D /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DD96C9571760FA3F0003A30C /* en */,
+				DDE622DF178B82DC0007769D /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		DD96C95C1760FA3F0003A30C /* MainMenu.xib */ = {
+		DDE622E4178B82DC0007769D /* FHTDocument.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DD96C95D1760FA3F0003A30C /* en */,
+				DDE622E5178B82DC0007769D /* en */,
+			);
+			name = FHTDocument.xib;
+			sourceTree = "<group>";
+		};
+		DDE622E7178B82DC0007769D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE622E8178B82DC0007769D /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -293,26 +305,26 @@
 			};
 			name = Release;
 		};
-		DD96C9621760FA3F0003A30C /* Debug */ = {
+		DDE622EA178B82DC0007769D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sample App/FHTSampleApp-Prefix.pch";
-				INFOPLIST_FILE = "Sample App/FHTSampleApp-Info.plist";
-				PRODUCT_NAME = FHTSampleApp;
+				GCC_PREFIX_HEADER = "Sample/Sample-Prefix.pch";
+				INFOPLIST_FILE = "Sample/Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		DD96C9631760FA3F0003A30C /* Release */ = {
+		DDE622EB178B82DC0007769D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sample App/FHTSampleApp-Prefix.pch";
-				INFOPLIST_FILE = "Sample App/FHTSampleApp-Info.plist";
-				PRODUCT_NAME = FHTSampleApp;
+				GCC_PREFIX_HEADER = "Sample/Sample-Prefix.pch";
+				INFOPLIST_FILE = "Sample/Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -329,14 +341,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD96C9611760FA3F0003A30C /* Build configuration list for PBXNativeTarget "FHTSampleApp" */ = {
+		DDE622EC178B82DC0007769D /* Build configuration list for PBXNativeTarget "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD96C9621760FA3F0003A30C /* Debug */,
-				DD96C9631760FA3F0003A30C /* Release */,
+				DDE622EA178B82DC0007769D /* Debug */,
+				DDE622EB178B82DC0007769D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

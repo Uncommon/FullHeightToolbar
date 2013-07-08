@@ -69,7 +69,6 @@ const CGFloat kLabelExtraWidth = 8;  // intrinsicContentSize is too small.
   NSSize minSize = viewFrame.size;
   FHTItemView *view = [[self alloc] initWithFrame:viewFrame];
 
-  NSLog(@"%@", [item itemIdentifier]);
   view.toolbarItem = item;
   view.mainView = mainView;
 
