@@ -59,8 +59,8 @@
 {
   NSToolbarItem *item = (NSToolbarItem *)[notification userInfo][@"item"];
 
-  if (![self isFullHeightItem:item])
-    [FHTItemView customizeToolbarItem:item];
+  [FHTItemView customizeToolbarItem:item
+                       isFullHeight:[self isFullHeightItem:item]];
 }
 
 - (BOOL)isFullHeightItem:(NSToolbarItem *)item

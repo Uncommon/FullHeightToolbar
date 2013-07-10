@@ -2,7 +2,8 @@
 
 @interface FHTItemView : NSView
 
-+ (void)customizeToolbarItem:(NSToolbarItem *)item;
++ (void)customizeToolbarItem:(NSToolbarItem *)item
+                isFullHeight:(BOOL)isFullHeight;
 
 @property NSToolbarItem *toolbarItem;
 

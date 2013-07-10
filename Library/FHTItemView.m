@@ -15,11 +15,9 @@ const CGFloat kLabelExtraWidth = 8;  // intrinsicContentSize is too small.
 // Returns either the item's view, or a button to replace the icon.
 + (NSView *)mainViewForItem:(NSToolbarItem *)item
 {
-  NSView *mainView = nil;
+  NSView *mainView = [item view];
 
-  if ([item view] != nil) {
-    mainView = [item view];
-  } else if ([item image] != nil) {
+  if ((mainView == nil) && ([item image] != nil)) {
     const NSRect frame = NSMakeRect(0, 0, 32, 32);
     NSButton *button = [[NSButton alloc] initWithFrame:frame];
 
@@ -59,6 +57,7 @@ const CGFloat kLabelExtraWidth = 8;  // intrinsicContentSize is too small.
 
 // Gives a toolbar item a custom view with a label.
 + (void)customizeToolbarItem:(NSToolbarItem *)item
+                isFullHeight:(BOOL)isFullHeight
 {
   NSView *mainView = [self mainViewForItem:item];
 
@@ -74,19 +73,22 @@ const CGFloat kLabelExtraWidth = 8;  // intrinsicContentSize is too small.
 
   minSize.width = fmax(minSize.width, mainView.frame.size.width);
   [view addSubview:mainView];
-  [mainView setFrameOrigin:
-      NSMakePoint(0, viewFrame.size.height - mainView.frame.size.height)];
+  if (isFullHeight)
+    [mainView setFrameOrigin:
+        NSMakePoint(0, viewFrame.size.height - mainView.frame.size.height)];
   mainView.autoresizingMask = NSViewMinXMargin | NSViewMaxXMargin;
 
-  NSTextField *label = [self labelForItem:item];
+  if (!isFullHeight) {
+    NSTextField *label = [self labelForItem:item];
 
-  view.label = label;
-  [view addSubview:label];
-  minSize.width =
-      fmax(minSize.width, label.intrinsicContentSize.width + kLabelExtraWidth);
-  [view setFrameSize:minSize];
-  label.frame = NSMakeRect(0, 0, minSize.width, kLabelHeight);
-  label.autoresizingMask = NSViewWidthSizable | NSViewMaxYMargin;
+    view.label = label;
+    [view addSubview:label];
+    minSize.width =
+        fmax(minSize.width, label.intrinsicContentSize.width + kLabelExtraWidth);
+    [view setFrameSize:minSize];
+    label.frame = NSMakeRect(0, 0, minSize.width, kLabelHeight);
+    label.autoresizingMask = NSViewWidthSizable | NSViewMaxYMargin;
+  }
 
   [item setView:view];
   [item setMinSize:minSize];
@@ -100,16 +102,16 @@ const CGFloat kLabelExtraWidth = 8;  // intrinsicContentSize is too small.
 
   // Assume that if the window has no toolbar, then it must be the customize
   // sheet, so the fake label must be hidden.
-  if (newWindow.toolbar != nil) {
-    [self.label setHidden:NO];
-    [self.mainView setFrameOrigin:NSMakePoint(
-        mainViewFrame.origin.x,
-        mySize.height - mainViewFrame.size.height)];
-  } else {
+  if (newWindow.toolbar == nil) {
     [self.label setHidden:YES];
     [self.mainView setFrameOrigin:NSMakePoint(
         mainViewFrame.origin.x,
         (mySize.height - mainViewFrame.size.height) / 2)];
+  } else {
+    [self.label setHidden:NO];
+    [self.mainView setFrameOrigin:NSMakePoint(
+        mainViewFrame.origin.x,
+        mySize.height - mainViewFrame.size.height)];
   }
 }
 
