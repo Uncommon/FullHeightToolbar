@@ -22,36 +22,52 @@ static NSColor *kBorderColor = nil;
 {
   const NSSize offset = NSMakeSize(0, -1.0);
 
-  kDropShadow = [[NSShadow alloc] init];
-  kDropShadow.shadowColor = [NSColor colorWithCalibratedWhite:0.863 alpha:0.75];
-  kDropShadow.shadowOffset = offset;
-  kDropShadow.shadowBlurRadius = 1.0;
+  @autoreleasepool {
+    kDropShadow = [[NSShadow alloc] init];
+    kDropShadow.shadowColor =
+        [NSColor colorWithCalibratedWhite:0.863 alpha:0.75];
+    kDropShadow.shadowOffset = offset;
+    kDropShadow.shadowBlurRadius = 1.0;
 
-  kInnerShadow = [[NSShadow alloc] init];
-  kInnerShadow.shadowColor = [NSColor colorWithCalibratedWhite:0.0 alpha:0.52];
-  kInnerShadow.shadowOffset = offset;
-  kInnerShadow.shadowBlurRadius = 4.0;
+    kInnerShadow = [[NSShadow alloc] init];
+    kInnerShadow.shadowColor =
+        [NSColor colorWithCalibratedWhite:0.0 alpha:0.52];
+    kInnerShadow.shadowOffset = offset;
+    kInnerShadow.shadowBlurRadius = 4.0;
 
-  kBorderColor = [NSColor colorWithCalibratedWhite:0.569 alpha:1.0];
+    kBorderColor = [NSColor colorWithCalibratedWhite:0.569 alpha:1.0];
 
-  kiTunesGradient = [[NSGradient alloc] initWithColorsAndLocations:
-      [NSColor colorWithCalibratedRed:0.929 green:0.945 blue:0.882 alpha:1.0], 0.0,
-      [NSColor colorWithCalibratedRed:0.902 green:0.922 blue:0.835 alpha:1.0], 0.5,
-      [NSColor colorWithCalibratedRed:0.871 green:0.894 blue:0.78  alpha:1.0], 0.5,
-      [NSColor colorWithCalibratedRed:0.949 green:0.961 blue:0.878 alpha:1.0], 1.0,
-      nil];
-  kXcodeGradient = [[NSGradient alloc] initWithColorsAndLocations:
-      [NSColor colorWithCalibratedRed:0.957 green:0.976 blue:1.0   alpha:1.0], 0.0,
-      [NSColor colorWithCalibratedRed:0.871 green:0.894 blue:0.918 alpha:1.0], 0.5,
-      [NSColor colorWithCalibratedRed:0.831 green:0.851 blue:0.867 alpha:1.0], 0.5,
-      [NSColor colorWithCalibratedRed:0.82  green:0.847 blue:0.89  alpha:1.0], 1.0,
-      nil];
-  kInstrumentsGradient = [[NSGradient alloc] initWithColorsAndLocations:
-      [NSColor colorWithCalibratedRed:0.811 green:0.855 blue:0.811 alpha:1.0], 0.0,
-      [NSColor colorWithCalibratedRed:0.729 green:0.792 blue:0.717 alpha:1.0], 0.5,
-      [NSColor colorWithCalibratedRed:0.690 green:0.753 blue:0.678 alpha:1.0], 0.5,
-      [NSColor colorWithCalibratedRed:0.784 green:0.855 blue:0.773 alpha:1.0], 1.0,
-      nil];
+    kiTunesGradient = [[NSGradient alloc] initWithColorsAndLocations:
+        [NSColor colorWithCalibratedRed:0.929 green:0.945 blue:0.882 alpha:1.0],
+        0.0,
+        [NSColor colorWithCalibratedRed:0.902 green:0.922 blue:0.835 alpha:1.0],
+        0.5,
+        [NSColor colorWithCalibratedRed:0.871 green:0.894 blue:0.78  alpha:1.0],
+        0.5,
+        [NSColor colorWithCalibratedRed:0.949 green:0.961 blue:0.878 alpha:1.0],
+        1.0,
+        nil];
+    kXcodeGradient = [[NSGradient alloc] initWithColorsAndLocations:
+        [NSColor colorWithCalibratedRed:0.957 green:0.976 blue:1.0   alpha:1.0],
+        0.0,
+        [NSColor colorWithCalibratedRed:0.871 green:0.894 blue:0.918 alpha:1.0],
+        0.5,
+        [NSColor colorWithCalibratedRed:0.831 green:0.851 blue:0.867 alpha:1.0],
+        0.5,
+        [NSColor colorWithCalibratedRed:0.82  green:0.847 blue:0.89  alpha:1.0],
+        1.0,
+        nil];
+    kInstrumentsGradient = [[NSGradient alloc] initWithColorsAndLocations:
+        [NSColor colorWithCalibratedRed:0.811 green:0.855 blue:0.811 alpha:1.0],
+        0.0,
+        [NSColor colorWithCalibratedRed:0.729 green:0.792 blue:0.717 alpha:1.0],
+        0.5,
+        [NSColor colorWithCalibratedRed:0.690 green:0.753 blue:0.678 alpha:1.0],
+        0.5,
+        [NSColor colorWithCalibratedRed:0.784 green:0.855 blue:0.773 alpha:1.0],
+        1.0,
+        nil];
+  }
 }
 
 - (id)initWithFrame:(NSRect)frame
