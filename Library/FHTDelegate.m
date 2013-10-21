@@ -21,6 +21,11 @@
   return self;
 }
 
+- (void)dealloc
+{
+  [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (void)updateContextMenu:(NSMenu *)menu hide:(BOOL)hide
 {
   // Hide or show items that change the display mode or icons size, and any
