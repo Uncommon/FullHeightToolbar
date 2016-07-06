@@ -2,6 +2,14 @@
 #import "FHTItemView.h"
 #import "FHTLCDStatusView.h"
 
+@interface NSObject(ToolbarPrivate)
+
+- (void)changeToolbarDisplayMode:(id)sender;
+- (void)toggleUsingSmallToolbarIcons:(id)sender;
+
+@end
+
+
 @implementation FHTDelegate
 
 - (id)init
