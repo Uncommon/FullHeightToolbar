@@ -5,6 +5,6 @@
 + (void)customizeToolbarItem:(NSToolbarItem *)item
                 isFullHeight:(BOOL)isFullHeight;
 
-@property NSToolbarItem *toolbarItem;
+@property(weak) NSToolbarItem *toolbarItem;
 
 @end

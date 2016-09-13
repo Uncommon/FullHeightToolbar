@@ -5,8 +5,8 @@ const CGFloat kLabelExtraWidth = 8;  // intrinsicContentSize is too small.
 
 @interface FHTItemView ()
 
-@property NSView *mainView;
-@property NSTextField *label;
+@property(weak) NSView *mainView;
+@property(weak) NSTextField *label;
 
 @end
 
